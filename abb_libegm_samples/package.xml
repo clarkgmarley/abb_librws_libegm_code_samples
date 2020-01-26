@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>abb_libegm_samples</name>
+  <version>0.0.0</version>
+  <description>The abb_egm_samples package, containing several C++ samples of how to use the abb_libegm C++ communication library to communicate with ABB robot controllers via Externally Guided Motion (EGM)</description>
+
+  <maintainer email="jon.tjerngren@se.abb.com">Jon Tjerngren</maintainer>
+
+  <license>BSD 3-Clause</license>
+
+  <author email="jon.tjerngren@se.abb.com">Jon Tjerngren</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>abb_libegm</depend>
+</package>

@@ -1,0 +1,6 @@
+<launch>
+  <arg name="rws_ip_address" doc="The robot controller's (or virtual controller's) IP address"/>
+  <node pkg="abb_librws_samples" type="b2_subscription_node" name="b2_subscription_node" output="screen">
+    <param name="rws_ip_address" type="str" value="$(arg rws_ip_address)"/>
+  </node>
+</launch>
